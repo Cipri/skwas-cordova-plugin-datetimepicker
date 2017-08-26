@@ -68,7 +68,7 @@ THE SOFTWARE.
         <header-file src="src/ios/TransparentCoverVerticalAnimator.h" />
         <source-file src="src/ios/TransparentCoverVerticalAnimator.m" />
 	    
-	<preference name="CAMERA_USAGE_DESCRIPTION" default="The app accesses your calendar to allow select time and date." />
+	<preference name="NSCalendarsUsageDescription" default="The app accesses your calendar to allow select time and date." />
 	    <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
 	    <string>$CAMERA_USAGE_DESCRIPTION</string>
 	</config-file>	    
