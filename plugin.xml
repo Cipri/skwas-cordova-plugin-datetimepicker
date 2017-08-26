@@ -67,11 +67,11 @@ THE SOFTWARE.
         <source-file src="src/ios/ModalPickerViewController.m" />
         <header-file src="src/ios/TransparentCoverVerticalAnimator.h" />
         <source-file src="src/ios/TransparentCoverVerticalAnimator.m" />
-	    
-	<preference name="NSCalendarsUsageDescription" default="The app accesses your calendar to allow select time and date." />
-	    <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
-	    <string>$CAMERA_USAGE_DESCRIPTION</string>
-	</config-file>	    
+
+         <preference name="CALENDAR_USAGE_DESCRIPTION" default="The app accesses your calendar to allow select time and date." />
+         <config-file target="*-Info.plist" parent="NSCalendarsUsageDescription">
+             <string>$CALENDAR_USAGE_DESCRIPTION</string>
+         </config-file>
 
 	</platform>
 
